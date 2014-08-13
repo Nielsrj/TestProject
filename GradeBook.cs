@@ -37,7 +37,7 @@ namespace Grades
                 stats.HighestGrade = Math.Max(grade, stats.HighestGrade);
                 stats.LowestGrade = Math.Min(grade, stats.LowestGrade);
                 sum += grade;
-            
+            }
 
             stats.AverageGrade = sum / grades.Count;
             return stats;
