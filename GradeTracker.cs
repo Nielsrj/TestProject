@@ -29,6 +29,7 @@ namespace Grades
         {
             get
             {
+                //Return _name
                 return _name;
             }
             set
