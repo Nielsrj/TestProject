@@ -22,6 +22,7 @@ namespace Grades
         {
             if (grade >= 0 && grade < 100)
             {
+                //Add Grades
                 grades.Add(grade);
             }
         }
